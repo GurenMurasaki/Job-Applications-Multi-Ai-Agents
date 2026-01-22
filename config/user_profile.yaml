@@ -1,0 +1,89 @@
+# User Profile Configuration
+# Fill in your personal and professional details
+
+personal:
+  first_name: "Your First Name"
+  last_name: "Your Last Name"
+  email: "your.email@gmail.com"
+  phone: "+33 6 XX XX XX XX"
+  address: "City, Country"
+  linkedin: "https://linkedin.com/in/yourprofile"
+  github: "https://github.com/yourusername"
+  portfolio: ""  # Optional
+
+professional:
+  current_title: "Your Current Title"
+  years_experience: 5
+  
+  primary_skills:
+    - "Skill 1"
+    - "Skill 2"
+    - "Skill 3"
+  
+  secondary_skills:
+    - "Secondary Skill 1"
+    - "Secondary Skill 2"
+  
+  certifications:
+    - name: "Certification Name"
+      issuer: "Issuing Organization"
+      year: 2024
+  
+  languages:
+    - language: "French"
+      level: "Native"
+    - language: "English"
+      level: "Fluent"
+    - language: "Spanish"
+      level: "Intermediate"
+
+education:
+  - degree: "Master's Degree"
+    field: "Computer Science"
+    institution: "University Name"
+    year: 2020
+    location: "City, Country"
+
+experience:
+  - title: "Current Job Title"
+    company: "Company Name"
+    location: "City, Country"
+    start_date: "2022-01"
+    end_date: "present"
+    highlights:
+      - "Key achievement 1"
+      - "Key achievement 2"
+      - "Key achievement 3"
+  
+  - title: "Previous Job Title"
+    company: "Previous Company"
+    location: "City, Country"
+    start_date: "2020-01"
+    end_date: "2021-12"
+    highlights:
+      - "Key achievement 1"
+      - "Key achievement 2"
+
+preferences:
+  preferred_languages:
+    - "fr"
+    - "en"
+  
+  target_roles:
+    - "Backend Developer"
+    - "Full Stack Developer"
+    - "Software Engineer"
+  
+  target_locations:
+    - "Paris"
+    - "Remote"
+    - "Lyon"
+  
+  salary_expectation:
+    min: 50000
+    max: 70000
+    currency: "EUR"
+  
+  notice_period: "1 month"
+  open_to_relocation: true
+  remote_preference: "hybrid"  # Options: remote, hybrid, onsite

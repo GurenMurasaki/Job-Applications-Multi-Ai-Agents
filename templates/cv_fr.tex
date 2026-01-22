@@ -1,0 +1,70 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage{geometry}
+\usepackage{hyperref}
+\usepackage{fontawesome5}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{xcolor}
+
+% Page geometry
+\geometry{left=1.5cm, right=1.5cm, top=1.5cm, bottom=1.5cm}
+
+% Colors
+\definecolor{primary}{RGB}{0, 79, 144}
+\definecolor{secondary}{RGB}{100, 100, 100}
+
+% Section formatting
+\titleformat{\section}{\Large\bfseries\color{primary}}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{12pt}{8pt}
+
+% Remove page numbers
+\pagestyle{empty}
+
+% Custom commands
+\newcommand{\cvitem}[2]{\textbf{#1}: #2}
+
+\begin{document}
+
+% Header
+\begin{center}
+    {\Huge\bfseries <<FULL_NAME>>}\\[0.3cm]
+    {\large\color{secondary} <<CURRENT_TITLE>>}\\[0.3cm]
+    \faEnvelope\ <<EMAIL>> \quad
+    \faPhone\ <<PHONE>> \quad
+    \faMapMarker\ <<LOCATION>>\\
+    \faLinkedin\ \href{<<LINKEDIN_URL>>}{LinkedIn} \quad
+    \faGithub\ \href{<<GITHUB_URL>>}{GitHub}
+\end{center}
+
+\vspace{0.3cm}
+
+% Résumé Professionnel
+\section{Résumé Professionnel}
+<<PROFESSIONAL_SUMMARY>>
+
+% Compétences
+\section{Compétences Techniques}
+\begin{itemize}[leftmargin=*, nosep]
+<<SKILLS_LIST>>
+\end{itemize}
+
+% Expérience
+\section{Expérience Professionnelle}
+
+<<EXPERIENCE_ENTRIES>>
+
+% Formation
+\section{Formation}
+<<EDUCATION_ENTRIES>>
+
+% Langues
+\section{Langues}
+<<LANGUAGES_LIST>>
+
+% Certifications (optionnel)
+<<CERTIFICATIONS_SECTION>>
+
+\end{document}

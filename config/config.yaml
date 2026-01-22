@@ -1,0 +1,91 @@
+# Kafka Configuration
+kafka:
+  bootstrap_servers: "localhost:9092"
+  group_id: "job-application-agents"
+  topics:
+    - "linkedin-jobs"
+    - "indeed-jobs"
+    - "other-jobs"
+  auto_offset_reset: "earliest"
+  enable_auto_commit: true
+  consumer_timeout_ms: 30000  # 30 seconds timeout to detect end of messages
+  max_poll_records: 10
+  session_timeout_ms: 45000
+
+# LLM Configuration
+# You can use the same model for all agents, or customize per-agent
+llm:
+  # Default settings (used by all agents unless overridden)
+  provider: "ollama"  # Options: "ollama", "openai"
+  model: "llama3.2"   # Default model for all agents
+  base_url: "http://localhost:11434"
+  api_key: ""  # Only needed for OpenAI
+  temperature: 0.7
+  max_tokens: 4096
+  timeout: 120
+  
+  # Per-agent customization (optional - uncomment to use)
+  # If set, these override the default model for that specific agent
+  agents:
+    cv_customizer:
+      enabled: false       # Set to true to use custom model
+      model: "llama3.2"    # Fast model for CV customization
+      # provider: "ollama" # Can also override provider
+      # temperature: 0.7
+    cover_letter:
+      enabled: false       # Set to true to use custom model
+      model: "llama3.2"    # Better model for writing letters
+    profile_updater:
+      enabled: false       # Set to true to use custom model
+      model: "llama3.2"    # Model for parsing CVs
+
+# LaTeX Configuration
+latex:
+  compiler: "pdflatex"
+  output_format: "pdf"
+  compile_attempts: 2
+  cleanup_aux_files: true
+
+# Gmail Configuration
+gmail:
+  credentials_file: "config/gmail_credentials.json"
+  token_file: "config/gmail_token.json"
+  scopes:
+    - "https://www.googleapis.com/auth/gmail.compose"
+    - "https://www.googleapis.com/auth/gmail.modify"
+
+# Paths Configuration
+paths:
+  jobs_dir: "data/jobs"
+  user_dir: "data/user"
+  templates_dir: "templates"
+  processed_dir: "data/processed"
+  logs_dir: "logs"
+
+# Processing Configuration
+processing:
+  batch_size: 10
+  retry_attempts: 3
+  retry_delay: 5
+  kafka_poll_timeout: 1.0
+
+# Language Configuration
+language:
+  default: "en"
+  country_mapping:
+    France: "fr"
+    Belgium: "fr"
+    Switzerland: "fr"
+    Canada: "en"
+    UK: "en"
+    USA: "en"
+    Germany: "de"
+    Spain: "es"
+    Italy: "it"
+
+# Logging Configuration
+logging:
+  level: "INFO"
+  format: "{time:YYYY-MM-DD HH:mm:ss} | {level} | {name}:{function}:{line} - {message}"
+  rotation: "10 MB"
+  retention: "1 week"

@@ -1,0 +1,37 @@
+[
+  {
+    "source": "linkedin",
+    "job_id": "linkedin_test_001",
+    "title": "Backend Developer Python",
+    "company": "TechStartup Paris",
+    "location": "Paris, France",
+    "description": "Nous recherchons un développeur backend Python expérimenté pour rejoindre notre équipe dynamique. Vous travaillerez sur des APIs REST avec Django et FastAPI, gérerez des bases de données PostgreSQL, et contribuerez à notre architecture microservices.\n\nResponsabilités:\n- Développer et maintenir des APIs REST\n- Optimiser les performances des bases de données\n- Participer aux code reviews\n- Collaborer avec l'équipe frontend\n\nEnvironnement technique: Python, Django, FastAPI, PostgreSQL, Docker, Kubernetes",
+    "requirements": ["Python", "Django", "FastAPI", "PostgreSQL", "Docker", "REST API"],
+    "contact_email": "recrutement@techstartup.fr",
+    "apply_url": "https://linkedin.com/jobs/view/12345",
+    "posted_date": "2026-01-20",
+    "extracted_at": "2026-01-22T09:00:00Z"
+  },
+  {
+    "source": "indeed",
+    "id": "indeed_test_002",
+    "position": "Full Stack Developer",
+    "employer": "InnovateTech",
+    "city": "Lyon",
+    "country": "France",
+    "job_description": "Join our team as a Full Stack Developer! We are looking for someone with strong experience in React and Node.js. English is required for international collaboration.\n\nWhat you'll do:\n- Build responsive web applications\n- Design and implement REST APIs\n- Work with cloud services (AWS)\n- Mentor junior developers\n\nRequirements:\n- 3+ years experience in web development\n- Strong JavaScript/TypeScript skills\n- Experience with React and Node.js\n- Fluent in English",
+    "skills": "React, Node.js, TypeScript, AWS, MongoDB",
+    "email": "hr@innovatetech.com",
+    "timestamp": "2026-01-21T15:30:00Z"
+  },
+  {
+    "source": "other",
+    "title": "Software Engineer",
+    "company": "FinanceApp London",
+    "location": "London, UK",
+    "description": "We are seeking a talented Software Engineer to join our fintech team in London. You will work on cutting-edge financial applications using modern technologies.\n\nResponsibilities:\n- Design and implement scalable systems\n- Work on real-time trading platforms\n- Ensure security and compliance\n- Participate in agile ceremonies\n\nRequirements:\n- Bachelor's degree in Computer Science\n- 4+ years of software development experience\n- Experience with Java or Python\n- Knowledge of financial systems is a plus",
+    "requirements": ["Java", "Python", "SQL", "Microservices", "Agile"],
+    "contact_email": "careers@financeapp.co.uk",
+    "url": "https://financeapp.co.uk/careers/se-001"
+  }
+]

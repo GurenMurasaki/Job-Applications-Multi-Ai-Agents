@@ -1,0 +1,44 @@
+# Job Application Multi-Agent System - Dependencies
+
+# Kafka
+kafka-python==2.0.2
+confluent-kafka==2.3.0
+
+# LLM Integration
+openai==1.12.0
+ollama==0.1.7
+
+# Gmail API
+google-auth==2.27.0
+google-auth-oauthlib==1.2.0
+google-auth-httplib2==0.2.0
+google-api-python-client==2.118.0
+
+# Data Processing
+pyyaml==6.0.1
+python-dotenv==1.0.1
+pydantic==2.6.1
+pydantic-settings==2.1.0
+
+# Language Detection
+langdetect==1.0.9
+
+# Document Parsing (for CV extraction)
+pypdf==4.0.1
+python-docx==1.1.0
+
+# Utilities
+python-dateutil==2.8.2
+rich==13.7.0
+click==8.1.7
+
+# Async Support
+asyncio==3.4.3
+aiofiles==23.2.1
+
+# Logging
+loguru==0.7.2
+
+# Testing (optional)
+pytest==8.0.0
+pytest-asyncio==0.23.4

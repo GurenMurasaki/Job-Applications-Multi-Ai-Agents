@@ -1,0 +1,10 @@
+{
+    "email_en": {
+        "subject": "Application - {position} - {full_name}",
+        "body": "Dear Hiring Manager,\n\nI am writing to express my interest in the {position} position at {company}.\n\nPlease find attached my CV and cover letter for your consideration.\n\nI would be delighted to discuss how my experience and skills align with the requirements of this role.\n\nThank you for your time and consideration.\n\nBest regards,\n{full_name}\n{email}\n{phone}"
+    },
+    "email_fr": {
+        "subject": "Candidature - {position} - {full_name}",
+        "body": "Madame, Monsieur,\n\nJe me permets de vous adresser ma candidature pour le poste de {position} au sein de {company}.\n\nVous trouverez ci-joint mon CV ainsi que ma lettre de motivation.\n\nJe serais ravi(e) de pouvoir échanger avec vous sur cette opportunité.\n\nJe vous remercie de l'attention portée à ma candidature.\n\nCordialement,\n{full_name}\n{email}\n{phone}"
+    }
+}
